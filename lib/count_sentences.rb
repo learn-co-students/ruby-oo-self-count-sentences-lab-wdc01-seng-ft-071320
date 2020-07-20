@@ -15,8 +15,6 @@ class String
   end
 
   def count_sentences
-    # self.each do |sentences|
-    #   sentences.size 
-    # end
+    self.split(/[.?!]+/).count
   end
 end
